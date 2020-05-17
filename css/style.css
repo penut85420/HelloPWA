@@ -1,21 +1,35 @@
 body {
+    font-size: 3rem;
     font-family: sans-serif;
 }
 
 html,
 .fullscreen {
-    display: flex;
     height: 100%;
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
-.container {
-    margin: auto;
+.calc_box {
     text-align: center;
 }
 
-.title {
+.calc_number {
+    margin: auto;
+    text-align: right;
     font-size: 3rem;
+    width: 20rem;
+}
+
+.number {
+    text-align: right;
+    font-size: 3rem;
+    width: 5rem;
+}
+
+input[type=button] {
+    margin: auto;
+    font-size: 3rem;
+    width: 5rem;
 }
